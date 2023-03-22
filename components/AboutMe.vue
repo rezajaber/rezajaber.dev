@@ -1,5 +1,5 @@
 <template>
-    <div class="py-14 flex justify-center">
+    <div class="py-8 flex justify-center">
         <div class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-900">
             <img class="object-cover w-full h-56" src="assets/pic/rj-profilepic.jpeg" alt="Picture of Reza Jaber">
 
@@ -11,7 +11,7 @@
                 <h1 class="font-heading text-xl font-semibold text-gray-800 dark:text-white">Reza Jaber</h1>
 
                 <p class="font-body text-md text-gray-700 mt-2 text-justify">
-                    I'm a 20 year old student and in my <span class="font-black text-black">last semester</span> of bachelors in "Business Informatics".
+                    I'm a 20 year old student and in my <span class="font-black text-black">last semester</span> of my bachelors in "Business Informatics".
                     In my freetime I <span class="font-black text-black">love to do sports</span> like Volleyball, Tabletennis and Fitness. 
                     On the other Hand I have my <span class="font-black text-black">passion for Frontend-Development</span>, as you might have guessed.
                     Therefor I am learning to <span class="font-black text-black">work with the Nuxt3-Framework</span> right now!
