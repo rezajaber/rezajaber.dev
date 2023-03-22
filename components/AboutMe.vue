@@ -1,7 +1,7 @@
 <template>
     <div class="py-8 flex justify-center">
         <div class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-900">
-            <img class="object-cover w-full h-56" src="/public/assets/pic/rj-profilepic.jpeg" alt="Picture of Reza Jaber">
+            <img class="object-cover w-full h-56" src="/assets/pic/rj-profilepic.jpeg" alt="Picture of Reza Jaber">
 
             <div class="flex items-center px-6 py-3 bg-gray-100">
                 <h1 class="font-heading font-semibold text-purple-800 text-md">🙋🏻‍♂️<span class="ml-2">About Me</span></h1>
