@@ -6,9 +6,9 @@
             <img class="waving ml-2 w-14" src="../public/assets/pic/waving.png" alt="Waving-Hand">
         </div>
 
-        <div class="pt-4 px-6 text-justify">
+        <div class="pt-4 px-2 text-justify">
             <p class="font-body text-base font-regular tracking-wide leading-[1.625rem]">
-                Hey, I'm Reza Jaber. A passionate Frontend-Developer based in Hamburg, Germany📍
+                Hey, I'm Reza Jaber. A {{ getRezaAge() }} year old passionate Frontend-Developer based in Hamburg, Germany📍
             </p>
         </div>
     </div>
@@ -17,3 +17,7 @@
 <style>
     @import '/assets/css/animation.css';
 </style>
+
+<script setup>
+    import { getRezaAge } from '/lib/utils.js'
+</script>
