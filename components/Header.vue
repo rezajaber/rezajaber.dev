@@ -1,11 +1,11 @@
 <template>
     <div>
-        <nav class="relative bg-white dark:bg-gray-900 shadow">
+        <nav class="shadow bg-white dark:bg-[#181a1b] ">
             <div class="flex justify-between items-center px-5 py-2">
                 <!-- LEFT SECTION -->
                 <div @click="() => themeSwitch()" class="left-section hover:animate-bounce">
-                    <img v-if="isLightMode" class="w-6 cursor-pointer" src="../public/assets/pic/moon-icon.svg" alt="Darkmode-Icon-Moon">
-                    <img v-if="!isLightMode" class="w-6 cursor-pointer" src="../public/assets/pic/sun-warm-icon.svg" alt="Lightmode-Icon-Sun">
+                    <img v-if="isLightMode" class="w-6 cursor-pointer" src="/assets/pic/moon-icon.svg" alt="Darkmode-Icon-Moon">
+                    <img v-if="!isLightMode" class="w-6 cursor-pointer" src="/assets/pic/sun-warm-icon.svg" alt="Lightmode-Icon-Sun">
                 </div>
 
                 <!-- CENTER -->

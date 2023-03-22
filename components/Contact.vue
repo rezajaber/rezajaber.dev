@@ -1,20 +1,20 @@
 <template>
-  <div class="py-8">
+  <div class="pt-8">
     <h3
       class="font-heading text-2xl font-bold text-purple-800 uppercase text-center"
     >
       Contact
     </h3>
-    <p class="text-center font-body text-lg font-bold text-black mt-2">
+    <p class="text-center font-body text-lg font-bold text-black dark:text-gray-200 mt-2">
       How do you like my Website?
       <br>Hit me up 🤙🏻
     </p>
       
-    <h2 style="width: 100%; text-align: center; border-bottom: 1px solid #000; line-height: 0.1em; margin: 10px 0 20px; margin-top: 2rem;"><span class="font-heading font-bold uppercase" style="background:#fff; padding:0 10px;">Socials</span></h2>
+    <h2 class="" style="width: 100%; text-align: center; border-bottom: 1px solid gray; line-height: 0.1em; margin: 10px 0 20px; margin-top: 2rem;"><span class="font-heading font-bold uppercase text-gray-200" style=" padding:0 10px;">Socials</span></h2>
 
     <div class="flex justify-center gap-6 mt-6">
       <a href="https://github.com/rezajaber/" target="_blank">
-        <svg class="cursor-pointer scale-125 hover:text-purple-700 hover:scale-150 transition ease-in-out delay-50 duration-300" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        <svg class="dark:text-white cursor-pointer scale-125 hover:text-purple-700 hover:scale-150 transition ease-in-out delay-50 duration-300" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
       </a>
 
       <a href="https://de.linkedin.com/in/reza-jaber-583b511ba" target="_blank">
@@ -23,16 +23,12 @@
     </div>
     
     
-    
-
-    <section>
-      
-
-      <div class="lg:w-1/2 lg:mx-6 pt-8">
+    <section class="">
+      <div class="lg:w-1/2 lg:mx-6 ">
         <div
-          class="w-full px-8 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50"
+          class="dark:bg-[#181a1b] w-full px-8 py-8 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50"
         >
-          <h1 class="text-lg font-medium text-gray-700">
+          <h1 class="text-lg font-medium text-gray-700 dark:text-gray-200">
             I would love to hear your Feedback!
           </h1>
 
@@ -44,27 +40,27 @@
               <input
                 type="text"
                 placeholder="John Doe"
-                class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-[#1e2022] dark:text-gray-100 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-600 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
 
             <div class="flex-1 mt-6">
-              <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200"
+              <label class="block mb-2 text-sm text-gray-600 dark:text-gray-100"
                 >Email address</label
               >
               <input
                 type="email"
                 placeholder="johndoe@example.com"
-                class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-[#1e2022] dark:text-gray-200 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-600 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
 
             <div class="w-full mt-6">
-              <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200"
+              <label class="block mb-2 text-sm text-gray-600 dark:text-gray-100"
                 >Message</label
               >
               <textarea
-                class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-[#1e2022] dark:text-gray-100 dark:border-gray-700 focus:border-purple-600 dark:focus:border-purple-600 focus:ring-purple-600 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Message"
               ></textarea>
             </div>

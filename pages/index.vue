@@ -1,18 +1,21 @@
 <template>
     <div>
-        <div class="bg-gray-100">
+        <div class="bg-gray-100 dark:bg-[#1e2022]">
             <Intro />
             <TechStack />
         </div>
 
-        <AboutMe />
+        <div class="bg-white dark:bg-[#181a1b]">
+            <AboutMe />
+        </div>
 
-        <div class="bg-gray-100">
+        <div class="bg-gray-100 dark:bg-[#1e2022]">
             <Portfolio />
         </div>
-    
-        <Contact />
         
+        <div class="bg-white dark:bg-[#181a1b]">
+            <Contact />
+        </div>
     </div>
 </template>
 

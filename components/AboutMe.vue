@@ -1,23 +1,23 @@
 <template>
-    <div class="scale-90 py-8 flex justify-center">
+    <div class="scale-90 py-8 flex justify-center ">
         <div class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-900">
             <img class="object-cover w-full h-56" src="/assets/pic/rj-profilepic.jpeg" alt="Picture of Reza Jaber">
 
-            <div class="flex items-center px-6 py-3 bg-gray-100">
+            <div class="flex items-center px-6 py-3 bg-gray-100 dark:bg-[#1e2022]">
                 <h1 class="font-heading font-semibold text-purple-800 text-md">🙋🏻‍♂️<span class="ml-2">About Me</span></h1>
             </div>
 
-            <div class="px-6 py-4">
+            <div class="px-6 py-4 dark:bg-[#0e131f]">
                 <h1 class="font-heading text-xl font-semibold text-gray-800 dark:text-white">Reza Jaber</h1>
 
-                <p class="font-body text-md text-gray-700 mt-2 text-justify">
-                    I'm a {{ getRezaAge() }} year old student and in my <span class="font-black text-black">last semester</span> of my bachelors in " Business Information Systems ".
-                    In my freetime I <span class="font-black text-black">like to do sports</span> like Volleyball, Tabletennis and Fitness. 
-                    On the other Hand I have my <span class="font-black text-black">passion for Frontend-Development</span>, as you might have guessed.
-                    Therefor I am learning to <span class="font-black text-black">work with the Nuxt3-Framework</span> right now!
+                <p class="font-body text-md text-gray-700 dark:text-gray-300 mt-2 text-justify">
+                    I'm a {{ getRezaAge() }} year old student and in my <span class="font-black text-black dark:text-gray-300">last semester</span> of my bachelors in " Business Information Systems ".
+                    In my freetime I <span class="font-black text-black dark:text-gray-300">like to do sports</span> like Volleyball, Tabletennis and Fitness. 
+                    On the other Hand I have my <span class="font-black text-black dark:text-gray-300">passion for Frontend-Development</span>, as you might have guessed.
+                    Therefor I am learning to <span class="font-black text-black dark:text-gray-300">work with the Nuxt3-Framework</span> right now!
                 </p>
 
-                <p class="font-body font-black text-black mt-2 ">Down below you can find some Projects ⬇</p>
+                <p class="font-body font-black text-black dark:text-gray-300 mt-2 ">Down below you can find some Projects ⬇</p>
 
                 <div class="flex items-center mt-6 text-gray-700 dark:text-gray-200">
                     <a class="flex items-center cursor-pointer" href="https://de.linkedin.com/in/reza-jaber-583b511ba" target="_blank">
