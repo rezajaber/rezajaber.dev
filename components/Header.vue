@@ -10,8 +10,8 @@
 
                 <!-- CENTER -->
                 <div class="flex items-center gap-x-6">
-                    <div class="relative">
-                        <img @click="() => switchPage()" class="hover:animate-spin object-cover w-14 rounded-full cursor-pointer" src="../public/assets/pic/memoji.png" alt="My Memoji">
+                    <div @click="() => switchPage()" class="relative">
+                        <img class="hover:animate-spin object-cover w-14 rounded-full cursor-pointer" src="/assets/pic/memoji.png" alt="My Memoji">
                         <span class="absolute bottom-0 w-3 h-3 rounded-full bg-emerald-500 right-1 ring-1 ring-white"></span>
                     </div>
                 </div>

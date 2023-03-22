@@ -11,10 +11,10 @@
                 <h1 class="font-heading text-xl font-semibold text-gray-800 dark:text-white">Reza Jaber</h1>
 
                 <p class="font-body text-md text-gray-700 dark:text-gray-300 mt-2 text-justify">
-                    I'm a {{ getRezaAge() }} year old student and in my <span class="font-black text-black dark:text-gray-300">last semester</span> of my bachelors in " Business Information Systems ".
-                    In my freetime I <span class="font-black text-black dark:text-gray-300">like to do sports</span> like Volleyball, Tabletennis and Fitness. 
-                    On the other Hand I have my <span class="font-black text-black dark:text-gray-300">passion for Frontend-Development</span>, as you might have guessed.
-                    Therefor I am learning to <span class="font-black text-black dark:text-gray-300">work with the Nuxt3-Framework</span> right now!
+                    I'm a {{ getRezaAge() }} year old student and in my last semester of my bachelors in " Business Information Systems ".
+                    In my freetime I like to do sports like Volleyball, Tabletennis and Fitness. 
+                    On the other Hand I have my passion for Frontend-Development, as you might have guessed.
+                    Therefor I am learning to work with the Nuxt3-Framework right now!
                 </p>
 
                 <p class="font-body font-black text-black dark:text-gray-300 mt-2 ">Down below you can find some Projects ⬇</p>

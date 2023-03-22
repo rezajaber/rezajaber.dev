@@ -3,5 +3,5 @@
         <CV />
     </div>
 
-    <Footer class="dark:bg-[#181a1b]"/>
+    <Footer class="bg-gray-100 dark:bg-[#181a1b]"/>
 </template>

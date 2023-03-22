@@ -5,14 +5,10 @@
         <div class="flex flex-col min-h-screen">
             <slot/>
         </div>
-    
-        
     </div>
 </template>
 
 <script setup>
-import { withBase } from 'ufo';
-
     const isIndex = useState('pageSwitch', () => true)
     const isLightMode = useState('themeSwitch', () => true)
     const loaded = ref(false)
@@ -27,7 +23,7 @@ import { withBase } from 'ufo';
             return true
         }
     }
-    
+
     onBeforeMount(() => {
         isLightMode.value = checkTheme() 
     })
