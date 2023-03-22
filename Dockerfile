@@ -15,6 +15,7 @@ FROM dependency-base AS production-base
 # build will also take care of building
 # if necessary
 COPY . .
+COPY ./public ./
 RUN npm run build
 
 FROM $NODE_VERSION-slim AS production
