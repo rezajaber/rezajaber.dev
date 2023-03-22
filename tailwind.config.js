@@ -8,8 +8,13 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./app.vue",
   ],
+  darkMode: 'class',
   theme: {
     extend: {},
+    fontFamily: {
+      'heading': ['Poppins', 'sans-serif'],
+      'body': ['Mulish', 'sans-serif'],
+    }
   },
   plugins: [],
 }
