@@ -4,9 +4,6 @@
         
         <div class="flex flex-col min-h-screen">
             <slot/>
-            <div class="bg-gray-100 dark:bg-[#1e2022] sticky top-[100vh]">
-                <Footer />
-            </div>
         </div>
     
         

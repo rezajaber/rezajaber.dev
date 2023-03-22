@@ -2,9 +2,9 @@
     <div>
         <div class="dark:text-gray-200 ">
             <div class="flex items-center justify-between mt-5 px-6">
-                    <span class="w-24 border-b border-black border-[1.5px] dark:border-gray-200  lg:w-2/4"></span>
-                    <h2 class="font-heading font-semibold text-md text-black dark:text-gray-200 text-center uppercase dark:text-black">Tech Stacks</h2>
-                    <span class="w-24 border-b border-black border-[1.5px] dark:border-gray-200 lg:w-2/4"></span>
+                <span class="w-24 border-b border-black border-[1.5px] dark:border-gray-200  lg:w-2/4"></span>
+                <h2 class="font-heading font-semibold text-md text-black dark:text-gray-200 text-center uppercase dark:text-black">Tech Stacks</h2>
+                <span class="w-24 border-b border-black border-[1.5px] dark:border-gray-200 lg:w-2/4"></span>
             </div>
 
             <div class="grid place-items-center gap-4 pt-4 pb-8 px-6">
