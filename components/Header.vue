@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav class="relative bg-white dark:bg-gray-900 shadow">
-            <div class="flex justify-between items-center px-4 py-2">
+            <div class="flex justify-between items-center px-5 py-2">
                 <!-- LEFT SECTION -->
                 <div @click="() => themeSwitch()" class="left-section hover:animate-bounce">
                     <img v-if="isLightMode" class="w-6 cursor-pointer" src="../public/assets/pic/moon-icon.svg" alt="Darkmode-Icon-Moon">

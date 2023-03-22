@@ -1,5 +1,5 @@
 <template>
-    <div class="py-8 flex justify-center">
+    <div class="scale-90 py-8 flex justify-center">
         <div class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-900">
             <img class="object-cover w-full h-56" src="/assets/pic/rj-profilepic.jpeg" alt="Picture of Reza Jaber">
 

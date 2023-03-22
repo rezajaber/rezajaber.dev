@@ -1,8 +1,8 @@
 <template>
-    <div class="pt-8">
+    <div class="pt-8 px-5">
         <div class="flex items-center flex-col">
-            <p class="font-heading font-bold text-5xl mb-1">Reza Jaber</p>
-            <p class="font-heading font-bold text-4xl mb-1">Front-End Developer</p>
+            <p class="font-heading font-bold text-5xl">Reza Jaber</p>
+            <p class="font-heading font-bold text-[2rem] mb-1">Front-End Developer</p>
             <img class="waving ml-2 w-14" src="../public/assets/pic/waving.png" alt="Waving-Hand">
         </div>
 

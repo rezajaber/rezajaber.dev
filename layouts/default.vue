@@ -3,7 +3,7 @@
         <Header />
         
         <div class="flex flex-col min-h-screen">
-            <slot />
+            <slot/>
             <div class="bg-gray-100 sticky top-[100vh]">
                 <Footer />
             </div>
