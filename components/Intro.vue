@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-12">
+    <div class="pt-8">
         <div class="flex items-center flex-col">
             <p class="font-heading font-bold text-5xl mb-1">Reza Jaber</p>
             <p class="font-heading font-bold text-4xl mb-1">Front-End Developer</p>

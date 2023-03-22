@@ -7,7 +7,7 @@
                     <span class="w-2/6 border-b border-black border-[1.5px] bdark:border-black lg:w-2/4"></span>
             </div>
 
-            <div class="grid place-items-center gap-4 mt-4">
+            <div class="grid place-items-center gap-4 py-4 pb-8">
                 <div class="flex space-x-6">
                     <img class=" w-[4.5rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/html.png" alt="HTML-Icon">
                     <img class=" w-[4.5rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/css.png" alt="CSS-Icon">

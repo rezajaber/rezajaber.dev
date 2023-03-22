@@ -1,10 +1,22 @@
 <template>
     <div v-if="loaded">
         <Header />
-        <div class="bg-gray-100 min-h-screen">
+
+        <div class="bg-gray-100">
             <Intro />
-            <Stack />
-            <slot /> 
+            <TechStack />
+        </div>
+
+        <AboutMe />
+
+        <div class="bg-gray-100">
+            <Portfolio />
+        </div>
+    
+        <Contact />
+        
+        <div class="bg-gray-100">
+            <Footer />
         </div>
     </div>
 </template>

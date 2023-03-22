@@ -2,16 +2,22 @@
     <div>
         <nav class="relative bg-white dark:bg-gray-900 shadow">
             <div class="flex justify-between items-center px-4 py-2">
+                <!-- LEFT SECTION -->
                 <div @click="() => themeSwitch()" class="left-section">
                     <img v-if="isLightMode" class="w-6 cursor-pointer" src="../public/assets/pic/moon-icon.svg" alt="Darkmode-Icon-Moon">
                     <img v-if="!isLightMode" class="w-6 cursor-pointer" src="../public/assets/pic/sun-warm-icon.svg" alt="Lightmode-Icon-Sun">
                 </div>
 
-                <div class="center-section">
-                    <img class="w-14 shadow rounded-full cursor-pointer" src="../public/assets/pic/memoji.png" alt="MyMemoji">
+                <!-- CENTER -->
+                <div class="flex items-center gap-x-6">
+                    <div class="relative">
+                        <img class="object-cover w-14 rounded-full" src="../public/assets/pic/memoji.png" alt="My Memoji">
+                        <span class="absolute bottom-0 w-3 h-3 rounded-full bg-emerald-500 right-1 ring-1 ring-white"></span>
+                    </div>
                 </div>
                 
-                <div class="right-section">
+                <!-- RIGHT SECTION -->
+                <div>
                     <!-- Mobile menu button -->
                     <div class="flex md:hidden lg:hidden">
                         <button v-cloak @click="isOpen = !isOpen" type="button" class="text-black dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
