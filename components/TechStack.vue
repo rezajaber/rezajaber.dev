@@ -8,14 +8,14 @@
             </div>
 
             <div class="grid place-items-center gap-4 pt-4 pb-8 px-6">
-                <div class="flex space-x-6">
+                <div class="flex space-x-4">
                     <img class=" w-[4rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/html.png" alt="HTML-Icon">
                     <img class=" w-[4rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/css.png" alt="CSS-Icon">
                     <img class=" w-[4rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/js.png" alt="JavaScript-Icon">    
                     <img class=" w-[4rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/tailwind.png" alt="Tailwind-Icon"> 
                 </div>
 
-                <div class="flex space-x-6">
+                <div class="flex space-x-4">
                     <img class=" w-[4rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/vue.png" alt="Vue-Icon">
                     <img class=" w-[4rem] bg-white rounded-full p-2 shadow-md cursor-pointer hover:scale-110 transition ease-in-out delay-50 duration-300" src="../public/assets/pic/nuxt.png" alt="Nuxt-Icon">
                 </div>

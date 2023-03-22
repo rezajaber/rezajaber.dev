@@ -34,7 +34,7 @@
    100% { transform: rotate( 0.0deg) }
   }
 
-  .scrollshot:hover {
+  .scrollshot:hover{
     animation-name: scrollshot-animation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
