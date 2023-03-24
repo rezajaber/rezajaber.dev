@@ -1,1 +1,2 @@
 npx tailwindcss -i ./public/assets/css/main.css -o ./dist/output.css --watch
+D:\cloudflared\cloudflared-windows-amd64.exe tunnel --url http://localhost:3000/

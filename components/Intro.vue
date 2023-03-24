@@ -1,13 +1,13 @@
 <template>
-    <div class="pt-8 px-5 dark:bg-[#1e2022]">
-        <div class="flex items-center flex-col">
-            <p class="font-heading font-bold text-5xl dark:text-gray-200 text-center mb-1 ">Reza Jaber</p>
-            <p class="font-heading font-bold text-3xl dark:text-gray-200 text-center mb-1">Front-End Developer</p>
-            <img class="waving ml-2 w-14" src="/assets/pic/waving.png" alt="Waving-Hand">
+    <div class="pt-8 px-5">
+        <div class="flex flex-col items-center">
+            <p class="font-heading font-bold text-5xl text-center mb-1 dark:text-gray-200">Reza Jaber</p>
+            <p class="font-heading font-bold text-3xl text-center mb-1 dark:text-gray-200">Front-End Developer</p>
+            <img class="waving w-14" src="/assets/pic/waving.png" alt="Waving-Hand">
         </div>
 
-        <div class="pt-4 px-2 text-justify">
-            <p class="font-body font-regular text-base dark:text-gray-200  tracking-wide leading-[1.625rem]">
+        <div class="pt-4 px-2 sm:px-20">
+            <p class="font-body font-regular text-base text-justify tracking-wide leading-[1.625rem] dark:text-gray-200 ">
                 Hey, I'm Reza Jaber. A {{ getRezaAge() }} year old passionate Frontend-Developer based in Hamburg, Germany📍
             </p>
         </div>
