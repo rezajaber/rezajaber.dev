@@ -54,7 +54,7 @@
         <div class="hidden lg:block pb-12 scale-75">
             <h3 class="font-heading font-bold text-2xl text-purple-800 text-center uppercase pb-10">ABOUT ME</h3>
 
-            <div class="flex justify-center px-28 hover:scale-105 transition ease-in-out delay-50 duration-300 xl:w-[100rem] xl:mx-auto">
+            <div class="flex justify-center px-28 hover:scale-105 transition ease-in-out delay-50 duration-300">
                 <div class="flex mx-auto ">
                     <img class="w-full object-cover rounded-l-xl" src="/assets/pic/rj-profilepic.jpeg" alt="Picture of Reza Jaber">
 
@@ -62,7 +62,7 @@
                         <h1 class="font-heading font-semibold text-xl text-gray-800 dark:text-gray-100 xl:text-2xl xl:pb-4">Reza Jaber</h1>
 
                         <p class="mt-2 font-body text-md text-gray-700 dark:text-gray-300 text-justify xl:text-lg">
-                            I'm a {{ getRezaAge() }} year old student and in my last semester of my bachelors in " Business Information Systems ".
+                            I'm a {{ getRezaAge() }} year old student and in my last semester of my bachelors in "Business Information Systems".
                             In my freetime I like to do sports like Volleyball, Tabletennis and Fitness. 
                             On the other Hand I have my passion for Frontend-Development, as you might have guessed.
                             Therefor I am learning to work with the Nuxt3-Framework right now!

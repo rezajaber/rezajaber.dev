@@ -1,10 +1,10 @@
 <template>
   <div class="">
     <div class="lg:hidden">
-        <h3 class="py-8 font-heading font-bold text-2xl text-purple-800 text-center uppercase md:py-10">Portfolio</h3>
+        <h3 class="pt-8 font-heading font-bold text-2xl text-purple-800 text-center uppercase md:py-10">Portfolio</h3>
 
         <!-- CARD -->
-        <section class="text-center hover:scale-105 transition ease-in-out delay-50 duration-300 ">
+        <section class="py-8 text-center hover:scale-105 transition ease-in-out delay-50 duration-300 ">
             <div class="px-6 flex justify-center">  
                 <div class="bg-white dark:bg-[#0e131f] rounded-xl shadow-lg w-[25rem]">
                     <a href="https://rezajaber.dev/" target="_blank">
@@ -50,7 +50,7 @@
             </div>
         </section>
 
-        <!-- PAGE BUTTONS --> 
+        <!-- PAGE BUTTONS 
         <div class="flex justify-center pt-6 pb-8">
             <a href="#" class="px-4 py-2 mx-1 text-gray-500 bg-white rounded-md cursor-not-allowed rtl:-scale-x-100 dark:bg-gray-800 dark:text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -63,7 +63,7 @@
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                 </svg>
             </a>
-        </div>
+        </div> --> 
     </div>
     
     <!-- LARGE & XL & XXL -->
@@ -71,7 +71,7 @@
         <h3 class="py-8 font-heading font-bold text-2xl text-purple-800 text-center uppercase ">Portfolio</h3>
 
         <!-- CARD -->
-        <section class="px-24 hover:scale-105 transition ease-in-out delay-50 duration-300 xl:w-[100rem] xl:mx-auto">
+        <section class="px-24 hover:scale-105 transition ease-in-out delay-50 duration-300">
             <div class="px-6 flex justify-center">  
                 <div class="bg-white dark:bg-[#0e131f] rounded-l-xl shadow-lg xl:flex xl:flex-col xl:justify-center xl:px-16">
                     <div class="mt-6 px-4 text-center">
@@ -117,7 +117,7 @@
             </div>
         </section>
 
-        <!-- PAGE BUTTONS --> 
+        <!-- PAGE BUTTONS 
         <div class="flex justify-center pt-10 pb-10">
             <a href="#" class="px-4 py-2 mx-1 text-gray-500 bg-white rounded-md cursor-not-allowed rtl:-scale-x-100 dark:bg-gray-800 dark:text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -130,7 +130,7 @@
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                 </svg>
             </a>
-        </div>
+        </div> --> 
     </div>
   </div>
 </template>
