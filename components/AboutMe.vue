@@ -51,7 +51,7 @@
         </div>
 
         <!-- LARGE & XL & X-->
-        <div class=" py-10 pb-12 ">
+        <div class="hidden lg:block pb-12 scale-75">
             <h3 class="font-heading font-bold text-2xl text-purple-800 text-center uppercase pb-10">ABOUT ME</h3>
 
             <div class="flex justify-center px-28 hover:scale-105 transition ease-in-out delay-50 duration-300 xl:w-[100rem] xl:mx-auto">

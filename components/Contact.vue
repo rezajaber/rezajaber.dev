@@ -5,9 +5,9 @@
       
     <!-- SOCIALS SECTION-->
     <div class="flex items-center justify-between mt-5 px-6 lg:mt-8">
-      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 xl:w-[50rem]"></span>
+      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 lg:w-96 xl:w-[35rem]"></span>
       <h2 class="font-heading font-semibold text-md text-center uppercase text-black dark:text-gray-200 lg:text-xl">Socials</h2>
-      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 lg:w-96 xl:w-[50rem]"></span>
+      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 lg:w-96 xl:w-[35rem]"></span>
     </div>
 
     <div class="flex justify-center gap-6 mt-6 lg:mt-10 lg:gap-14">

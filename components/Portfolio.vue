@@ -67,8 +67,8 @@
     </div>
     
     <!-- LARGE & XL & XXL -->
-    <div class="">
-        <h3 class="py-8 font-heading font-bold text-2xl text-purple-800 text-center uppercase md:py-10">Portfolio</h3>
+    <div class="hidden lg:block scale-75">
+        <h3 class="py-8 font-heading font-bold text-2xl text-purple-800 text-center uppercase ">Portfolio</h3>
 
         <!-- CARD -->
         <section class="px-24 hover:scale-105 transition ease-in-out delay-50 duration-300 xl:w-[100rem] xl:mx-auto">
