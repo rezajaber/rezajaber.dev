@@ -5,9 +5,9 @@
       
     <!-- SOCIALS SECTION-->
     <div class="flex items-center justify-between mt-5 px-6 lg:mt-8">
-      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 lg:w-96"></span>
+      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 xl:w-[50rem]"></span>
       <h2 class="font-heading font-semibold text-md text-center uppercase text-black dark:text-gray-200 lg:text-xl">Socials</h2>
-      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 lg:w-96"></span>
+      <span class="w-24 border-black dark:border-gray-200 border-[1.5px] sm:w-48 md:w-64 lg:w-96 xl:w-[50rem]"></span>
     </div>
 
     <div class="flex justify-center gap-6 mt-6 lg:mt-10 lg:gap-14">
@@ -22,7 +22,7 @@
     
     <!-- CONTACT FORM -->
     <section class="">
-      <div class="px-6 py-10 lg:px-14 ">
+      <div class="px-6 py-10 lg:px-14 xl:px-40 xl:py-20">
         <div class="px-8 py-8 dark:bg-[#181a1b] bg-white rounded-lg shadow-2xl">
           <h1 class="font-body font-bold text-lg text-black dark:text-gray-200">I would love to hear your Feedback!</h1>
 
