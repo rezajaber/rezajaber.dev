@@ -7,7 +7,7 @@
             <NuxtLink to="/"><img class="cursor-pointer waving ml-2 w-14" src="../public/assets/pic/waving.png" alt="Waving-Hand"></NuxtLink>
       </div>
 
-      <p class="text-md text-gray-600 dark:text-gray-300 mt-4 text-center">© Copyright 2023. All Rights Reserved.</p>
+      <p class=" mt-4 font-body text-sm text-center text-gray-600 dark:text-gray-300">© Copyright 2023. All Rights Reserved.</p>
     </footer>
   </div>
 </template>

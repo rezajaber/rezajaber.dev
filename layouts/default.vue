@@ -1,6 +1,6 @@
 <template>
     <div v-if="loaded">
-        <Header />
+            <Header />
         
         <div class="flex flex-col min-h-screen">
             <slot/>

@@ -1,11 +1,11 @@
 <template>
     <div>
-        <nav class="shadow bg-white dark:bg-[#181a1b] ">
-            <div class="flex justify-between items-center px-5 py-2">
+        <nav class="shadow bg-white dark:bg-[#181a1b]">
+            <div class="px-5 py-2 flex justify-between items-center md:px-6 lg:py-4">
                 <!-- LEFT SECTION -->
                 <div @click="() => themeSwitch()" class="left-section hover:animate-bounce">
-                    <img v-if="isLightMode" class="w-6 cursor-pointer" src="/assets/pic/moon-icon.svg" alt="Darkmode-Icon-Moon">
-                    <img v-if="!isLightMode" class="w-6 cursor-pointer" src="/assets/pic/sun-warm-icon.svg" alt="Lightmode-Icon-Sun">
+                    <img v-if="isLightMode" class="w-6 cursor-pointer md:w-8 lg:w-10" src="/assets/pic/moon-icon.svg" alt="Darkmode-Icon-Moon">
+                    <img v-if="!isLightMode" class="w-6 cursor-pointer md:w-8 lg:w-10" src="/assets/pic/sun-warm-icon.svg" alt="Lightmode-Icon-Sun">
                 </div>
 
                 <!-- CENTER -->
@@ -19,7 +19,7 @@
                 <!-- RIGHT SECTION -->
                 <div>
                     <a href="https://open.spotify.com/playlist/2othQoW6WRJCnC7mKFMRgD?si=35aa1dfbec114733" target="_blank">
-                        <img class="hover:animate-bounce w-7 hover:scale" src="/assets/pic/spotify.svg" alt="Spotify-Icon">
+                        <img class="hover:animate-bounce w-7 hover:scale md:w-8 lg:w-10" src="/assets/pic/spotify.svg" alt="Spotify-Icon">
                     </a>
                 </div>
             </div>
